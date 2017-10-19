@@ -9,7 +9,7 @@
         <module name="hope" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
+    <bytecodeTargetLevel>
       <module name="hope" target="1.6" />
     </bytecodeTargetLevel>
   </component>
