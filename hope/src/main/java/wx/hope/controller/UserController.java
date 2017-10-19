@@ -31,8 +31,5 @@ public class UserController {
     public User getUser(@PathVariable("id") Integer id) {
         return userRepository.findOne(id);
     }
-<<<<<<< HEAD
 
-=======
->>>>>>> 9fd914b4c51dc4f96bf167d5e89ae40c43c0de18
 }
