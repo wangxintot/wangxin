@@ -32,4 +32,14 @@ public class UserController {
         return userRepository.findOne(id);
     }
 
+    @GetMapping(value = "/getUser/{id}")
+    public User goUser(@PathVariable("id") Integer id) {
+        return userRepository.findOne(id);
+    }
+
+    @GetMapping(value = "/getUser/{id}")
+    public User a(@PathVariable("id") Integer id) {
+        return userRepository.findOne(id);
+    }
+
 }
