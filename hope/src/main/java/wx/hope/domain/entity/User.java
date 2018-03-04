@@ -12,9 +12,7 @@ public class User {
 
     private String name;
 
-    private String mail;
-
-    private String sex;
+    private String password;
 
     public User() {
     }
@@ -35,19 +33,11 @@ public class User {
         this.name = name;
     }
 
-    public String getMail() {
-        return mail;
+    public String getPassword() {
+        return password;
     }
 
-    public void setMail(String mail) {
-        this.mail = mail;
-    }
-
-    public String getSex() {
-        return sex;
-    }
-
-    public void setSex(String sex) {
-        this.sex = sex;
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
